@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            DataGeneric<String> data = new DataGeneric<String>("1302210014");
+            data.PrintData();
         }
     }
 }
